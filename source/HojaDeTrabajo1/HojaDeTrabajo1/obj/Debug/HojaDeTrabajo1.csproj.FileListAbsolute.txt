@@ -7,3 +7,4 @@ C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\Hoj
 C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.csproj.GenerateResource.Cache
 C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.exe
 C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.pdb
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.csprojResolveAssemblyReference.cache

@@ -43,5 +43,63 @@ namespace HojaDeTrabajo1
             double z = Math.Round(Math.Sqrt(a * a + b * b), 2);
             return z;
         }
-    }
-}
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try {
+                if (Vocal(textBox1.Text))
+                {
+                    label1.Text = "CUMPLE";
+                }
+                else
+                {
+                    label1.Text = "NO CUMPLE";
+                }
+            }
+            catch { }
+        }
+
+        bool Vocal(string text)
+        {
+            bool a, e, i, o, u;
+            a = false;
+            e = false;
+            i = false;
+            o = false;
+            u = false;
+
+            foreach (char c in text.ToUpper())
+            {
+                int d = Convert.ToInt32(c);
+                if (d == 65)
+                {
+                    a = true;
+                }
+                else if (d == 69)
+                {
+                    e = true;
+                }
+                else if (d == 73)
+                {
+                    i = true;
+                }
+                else if (d == 79)
+                {
+                    o = true;
+                }
+                else if (d == 85)
+                {
+                    u = true;
+                }
+
+
+            }
+            if (a == true && e == true && i == true && o == true && u == true) {
+                return true;
+            }
+
+            else
+	{
+                return false;
+
+            } } } }
