@@ -1,1 +1,9 @@
 c:\users\oswaldo\documents\visual studio 2015\Projects\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.exe.config
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.exe.config
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.exe
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.pdb
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.Form1.resources
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.Properties.Resources.resources
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.csproj.GenerateResource.Cache
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.exe
+C:\GITHUB_ROOT\HojaDeTrabajo1\source\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.pdb

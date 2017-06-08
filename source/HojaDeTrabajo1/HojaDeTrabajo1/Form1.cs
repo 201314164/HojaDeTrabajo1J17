@@ -21,5 +21,27 @@ namespace HojaDeTrabajo1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                double a = Convert.ToDouble(textBox1.Text);
+                double b = Convert.ToDouble(textBox2.Text);
+
+                label1.Text = "A = " + a + " B = " + b;
+                label2.Text = "La hipotenusa es de " + Convert.ToString(Hipotenusa(a, b));
+            }
+            catch { MessageBox.Show("Entradas incorrectas"); }
+
+        }
+
+        private double Hipotenusa(double a, double b)
+        {
+
+            double z = Math.Round(Math.Sqrt(a * a + b * b), 2);
+            return z;
+        }
     }
 }
