@@ -24,7 +24,7 @@ namespace HojaDeTrabajo1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            label1.Text = label2.Text = "";
             try
             {
                 double a = Convert.ToDouble(textBox1.Text);
@@ -39,6 +39,7 @@ namespace HojaDeTrabajo1
 
         private double Hipotenusa(double a, double b)
         {
+            
 
             double z = Math.Round(Math.Sqrt(a * a + b * b), 2);
             return z;
@@ -46,6 +47,7 @@ namespace HojaDeTrabajo1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            label1.Text = label2.Text = "";
             try {
                 if (Vocal(textBox1.Text))
                 {
@@ -65,6 +67,7 @@ namespace HojaDeTrabajo1
 
         bool Vocal(string text)
         {
+           
             bool a, e, i, o, u;
             a = false;
             e = false;
@@ -110,6 +113,7 @@ namespace HojaDeTrabajo1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            label1.Text = label2.Text = "";
             try
             {
                label1.Text= Invertir(textBox1.Text, textBox2.Text);
@@ -135,4 +139,27 @@ namespace HojaDeTrabajo1
             }
             return palabra1 + " " + palabra2;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Text = label2.Text = "";
+            double n1, n2, n3;
+            
+
+            try {
+                n1 = Convert.ToDouble(textBox1.Text);
+                n2 = Convert.ToDouble(textBox2.Text);
+                n3 = Convert.ToDouble(textBox3.Text);
+                label1.Text = n1 + " es a " + n2;
+                label2.Text = "Como " + n3 + " es a " + Regla3(n1, n2, n3);
+            }
+            catch { MessageBox.Show("Entrada incorrecta, por favor ingrese numeros");}
+        }
+
+        private double Regla3(double n1, double n2, double n3)
+        {
+            return Math.Round((n2 * n3) / n1,2);
+        }
+
+       
     } }
