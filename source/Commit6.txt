@@ -1,0 +1,11 @@
+1. Commit significa en español cometer, se entiende como aceptar los cambios hechos y guardarlos, de esta forma cambiando de forma local el codigo o la version de este en la que se esté trabajando.
+
+2. Merge en español significa unir, nos sirve para unir 2 ramas (branches) en una sola para unir lo cambios hechos en el codigo por distintas razones.
+
+3. Push (Empujar) significa que subimos los commits hechos de manera local en el codigo hacia el repositorio en linea (en nuestro caso Github) para guardar los cambios en la nube.
+
+Pull (Jalar) es lo contrario, manda a traer los cambios desde el repositorio en linea para realizar lo cambios en el repositorio local. 
+
+4. Las ramas(branches) se utilizan para realizar cambios distintos en el mismo codigo sin comprometer el codigo original permitiendo hacer varios cambios por razones distintas de manera simultanea.
+
+Para crearla se dirije a sourcetree(en nuestro caso) 
