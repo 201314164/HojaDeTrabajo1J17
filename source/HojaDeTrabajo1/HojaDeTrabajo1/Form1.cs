@@ -54,9 +54,13 @@ namespace HojaDeTrabajo1
                 else
                 {
                     label1.Text = "NO CUMPLE";
+                    if (textBox1.TextLength == 0)
+                    {
+                        MessageBox.Show("Ingrese en la Caja 1");
+                    }
                 }
             }
-            catch { }
+            catch {  }
         }
 
         bool Vocal(string text)
@@ -102,4 +106,33 @@ namespace HojaDeTrabajo1
 	{
                 return false;
 
-            } } } }
+            } }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               label1.Text= Invertir(textBox1.Text, textBox2.Text);
+            }
+            catch
+            {
+
+                
+            }
+        }
+
+        private string Invertir(string text1, string text2)
+        {
+            string palabra1 = "";
+            string palabra2 = "";
+            foreach(char cc in text1)
+            {
+                palabra1 = cc + palabra1;
+            }
+            foreach (char cc in text2)
+            {
+                palabra2 = cc + palabra2;
+            }
+            return palabra1 + " " + palabra2;
+        }
+    } }
